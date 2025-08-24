@@ -1,0 +1,15 @@
+name: "First Workflow"
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'main/**'
+
+jobs:
+  XYZ:
+    name: Run XYZ Job
+    runs-on: SH
+    steps:
+      - name: xyza
+        run: echo abc
