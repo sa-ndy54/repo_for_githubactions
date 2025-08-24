@@ -3,7 +3,6 @@ name: "First Workflow"
 on:
   push:
     branches:
-      - 'feature/**'
       - 'main/**'
 
 jobs:
