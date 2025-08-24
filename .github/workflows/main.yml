@@ -9,4 +9,4 @@ jobs:
     runs-on: SH
     steps:
       - name: xyza
-        run: echo abc
+        run: "My Name is John Doe"
